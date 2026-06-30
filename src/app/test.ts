@@ -1,1 +1,1 @@
-const userName: string = '100';
+const a = { name: 'Saif' };
