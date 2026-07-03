@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+echo "🔍 Running pre-commit checks..."
+
+npx lint-staged
+
+echo ""
+echo "🔍 Running TypeScript check..."
+
+pnpm run type-check
