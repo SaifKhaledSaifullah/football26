@@ -1,4 +1,3 @@
-import { AntdRegistry } from '@ant-design/nextjs-registry';
 import Providers from './providers';
 
 export default function RootLayout({
