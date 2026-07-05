@@ -1,4 +1,4 @@
-import { AntdRegistry } from '@ant-design/nextjs-registry';
+import Providers from './providers';
 
 export default function RootLayout({
   children,
@@ -8,9 +8,9 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body>
-        <AntdRegistry>
+        <Providers>
           <main className='mx-auto max-w-5xl px-4 py-6'>{children}</main>
-        </AntdRegistry>
+        </Providers>
       </body>
     </html>
   );
