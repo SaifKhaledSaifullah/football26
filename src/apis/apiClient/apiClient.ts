@@ -85,3 +85,4 @@ class ApiClient {
     return this.request<T>(url);
   }
 }
+export const apiClient = new ApiClient();
